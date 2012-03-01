@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F91100A314FF513F0092FEC4 /* GradientCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91100A214FF513F0092FEC4 /* GradientCellTableViewController.m */; };
+		F91100A714FF534E0092FEC4 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91100A514FF534E0092FEC4 /* ButtonViewController.m */; };
+		F91100A814FF534E0092FEC4 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91100A614FF534E0092FEC4 /* ButtonViewController.xib */; };
+		F9C2AE4314FF495F002B691C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C2AE4214FF495F002B691C /* UIKit.framework */; };
+		F9C2AE4514FF495F002B691C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C2AE4414FF495F002B691C /* Foundation.framework */; };
+		F9C2AE4714FF495F002B691C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C2AE4614FF495F002B691C /* CoreGraphics.framework */; };
+		F9C2AE4D14FF495F002B691C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9C2AE4B14FF495F002B691C /* InfoPlist.strings */; };
+		F9C2AE4F14FF495F002B691C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE4E14FF495F002B691C /* main.m */; };
+		F9C2AE5314FF495F002B691C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE5214FF495F002B691C /* AppDelegate.m */; };
+		F9C2AE6C14FF49C8002B691C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE6B14FF49C8002B691C /* ViewController.m */; };
+		F9C2AE8614FF4A43002B691C /* JGGradientCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE7D14FF4A43002B691C /* JGGradientCellBackgroundView.m */; };
+		F9C2AE8714FF4A43002B691C /* JGGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE7F14FF4A43002B691C /* JGGradientView.m */; };
+		F9C2AE8814FF4A43002B691C /* JGCoreGraphicsHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE8114FF4A43002B691C /* JGCoreGraphicsHelpers.m */; };
+		F9C2AE8914FF4A43002B691C /* JGGlossyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE8314FF4A43002B691C /* JGGlossyButton.m */; };
+		F9C2AE9214FF4E77002B691C /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2AE9114FF4E77002B691C /* GradientViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F91100A114FF513F0092FEC4 /* GradientCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientCellTableViewController.h; sourceTree = "<group>"; };
+		F91100A214FF513F0092FEC4 /* GradientCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientCellTableViewController.m; sourceTree = "<group>"; };
+		F91100A414FF534E0092FEC4 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		F91100A514FF534E0092FEC4 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		F91100A614FF534E0092FEC4 /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		F9C2AE3E14FF495F002B691C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C2AE4214FF495F002B691C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9C2AE4414FF495F002B691C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9C2AE4614FF495F002B691C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9C2AE4A14FF495F002B691C /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		F9C2AE4C14FF495F002B691C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9C2AE4E14FF495F002B691C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9C2AE5014FF495F002B691C /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		F9C2AE5114FF495F002B691C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9C2AE5214FF495F002B691C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9C2AE6A14FF49C8002B691C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9C2AE6B14FF49C8002B691C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9C2AE7C14FF4A43002B691C /* JGGradientCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGGradientCellBackgroundView.h; path = ../JGGradientCellBackgroundView.h; sourceTree = "<group>"; };
+		F9C2AE7D14FF4A43002B691C /* JGGradientCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGGradientCellBackgroundView.m; path = ../JGGradientCellBackgroundView.m; sourceTree = "<group>"; };
+		F9C2AE7E14FF4A43002B691C /* JGGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGGradientView.h; path = ../JGGradientView.h; sourceTree = "<group>"; };
+		F9C2AE7F14FF4A43002B691C /* JGGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGGradientView.m; path = ../JGGradientView.m; sourceTree = "<group>"; };
+		F9C2AE8014FF4A43002B691C /* JGCoreGraphicsHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGCoreGraphicsHelpers.h; path = ../JGCoreGraphicsHelpers.h; sourceTree = "<group>"; };
+		F9C2AE8114FF4A43002B691C /* JGCoreGraphicsHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGCoreGraphicsHelpers.m; path = ../JGCoreGraphicsHelpers.m; sourceTree = "<group>"; };
+		F9C2AE8214FF4A43002B691C /* JGGlossyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGGlossyButton.h; path = ../JGGlossyButton.h; sourceTree = "<group>"; };
+		F9C2AE8314FF4A43002B691C /* JGGlossyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGGlossyButton.m; path = ../JGGlossyButton.m; sourceTree = "<group>"; };
+		F9C2AE9014FF4E77002B691C /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		F9C2AE9114FF4E77002B691C /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C2AE3B14FF495F002B691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C2AE4314FF495F002B691C /* UIKit.framework in Frameworks */,
+				F9C2AE4514FF495F002B691C /* Foundation.framework in Frameworks */,
+				F9C2AE4714FF495F002B691C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F911009F14FF511B0092FEC4 /* JGHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2AE8014FF4A43002B691C /* JGCoreGraphicsHelpers.h */,
+				F9C2AE8114FF4A43002B691C /* JGCoreGraphicsHelpers.m */,
+				F9C2AE7E14FF4A43002B691C /* JGGradientView.h */,
+				F9C2AE7F14FF4A43002B691C /* JGGradientView.m */,
+				F9C2AE7C14FF4A43002B691C /* JGGradientCellBackgroundView.h */,
+				F9C2AE7D14FF4A43002B691C /* JGGradientCellBackgroundView.m */,
+				F9C2AE8214FF4A43002B691C /* JGGlossyButton.h */,
+				F9C2AE8314FF4A43002B691C /* JGGlossyButton.m */,
+			);
+			name = JGHelpers;
+			sourceTree = "<group>";
+		};
+		F9C2AE3314FF495F002B691C = {
+			isa = PBXGroup;
+			children = (
+				F9C2AE4814FF495F002B691C /* Demo */,
+				F911009F14FF511B0092FEC4 /* JGHelpers */,
+				F9C2AE4114FF495F002B691C /* Frameworks */,
+				F9C2AE3F14FF495F002B691C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C2AE3F14FF495F002B691C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2AE3E14FF495F002B691C /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C2AE4114FF495F002B691C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2AE4214FF495F002B691C /* UIKit.framework */,
+				F9C2AE4414FF495F002B691C /* Foundation.framework */,
+				F9C2AE4614FF495F002B691C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9C2AE4814FF495F002B691C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2AE5114FF495F002B691C /* AppDelegate.h */,
+				F9C2AE5214FF495F002B691C /* AppDelegate.m */,
+				F9C2AE4914FF495F002B691C /* Supporting Files */,
+				F9C2AE6A14FF49C8002B691C /* ViewController.h */,
+				F9C2AE6B14FF49C8002B691C /* ViewController.m */,
+				F9C2AE9014FF4E77002B691C /* GradientViewController.h */,
+				F9C2AE9114FF4E77002B691C /* GradientViewController.m */,
+				F91100A114FF513F0092FEC4 /* GradientCellTableViewController.h */,
+				F91100A214FF513F0092FEC4 /* GradientCellTableViewController.m */,
+				F91100A414FF534E0092FEC4 /* ButtonViewController.h */,
+				F91100A514FF534E0092FEC4 /* ButtonViewController.m */,
+				F91100A614FF534E0092FEC4 /* ButtonViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F9C2AE4914FF495F002B691C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2AE4A14FF495F002B691C /* Demo-Info.plist */,
+				F9C2AE4B14FF495F002B691C /* InfoPlist.strings */,
+				F9C2AE4E14FF495F002B691C /* main.m */,
+				F9C2AE5014FF495F002B691C /* Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9C2AE3D14FF495F002B691C /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C2AE6214FF495F002B691C /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				F9C2AE3A14FF495F002B691C /* Sources */,
+				F9C2AE3B14FF495F002B691C /* Frameworks */,
+				F9C2AE3C14FF495F002B691C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = F9C2AE3E14FF495F002B691C /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C2AE3514FF495F002B691C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "julien.grimault@me.com";
+			};
+			buildConfigurationList = F9C2AE3814FF495F002B691C /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9C2AE3314FF495F002B691C;
+			productRefGroup = F9C2AE3F14FF495F002B691C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C2AE3D14FF495F002B691C /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C2AE3C14FF495F002B691C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C2AE4D14FF495F002B691C /* InfoPlist.strings in Resources */,
+				F91100A814FF534E0092FEC4 /* ButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C2AE3A14FF495F002B691C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C2AE4F14FF495F002B691C /* main.m in Sources */,
+				F9C2AE5314FF495F002B691C /* AppDelegate.m in Sources */,
+				F9C2AE6C14FF49C8002B691C /* ViewController.m in Sources */,
+				F9C2AE8614FF4A43002B691C /* JGGradientCellBackgroundView.m in Sources */,
+				F9C2AE8714FF4A43002B691C /* JGGradientView.m in Sources */,
+				F9C2AE8814FF4A43002B691C /* JGCoreGraphicsHelpers.m in Sources */,
+				F9C2AE8914FF4A43002B691C /* JGGlossyButton.m in Sources */,
+				F9C2AE9214FF4E77002B691C /* GradientViewController.m in Sources */,
+				F91100A314FF513F0092FEC4 /* GradientCellTableViewController.m in Sources */,
+				F91100A714FF534E0092FEC4 /* ButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9C2AE4B14FF495F002B691C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C2AE4C14FF495F002B691C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9C2AE6014FF495F002B691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9C2AE6114FF495F002B691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9C2AE6314FF495F002B691C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9C2AE6414FF495F002B691C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C2AE3814FF495F002B691C /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C2AE6014FF495F002B691C /* Debug */,
+				F9C2AE6114FF495F002B691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C2AE6214FF495F002B691C /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C2AE6314FF495F002B691C /* Debug */,
+				F9C2AE6414FF495F002B691C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9C2AE3514FF495F002B691C /* Project object */;
+}
